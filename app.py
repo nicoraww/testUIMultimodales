@@ -18,6 +18,6 @@ with col1:
   st.subheader("Columna 1")
   st.write("Diseño de UI Y UX")
   resp = st.checkbox("Contacto")
-  if respectivamente:
+  if resp:
     st.writw("Correcto")
     
