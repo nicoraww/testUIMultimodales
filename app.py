@@ -30,3 +30,10 @@ if st.button("Presiona el Botón"):
   st.write("Gracias")
 else:
   st.write("No has presionado aún")
+
+st.subheader("SelectBox")
+in_mod = st.selectbox(
+  "Selecciona la Modalidad",
+  ("Audio", "Visual". "Háptico"),
+  )
+if in_mod == "Audio":
