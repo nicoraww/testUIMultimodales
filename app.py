@@ -20,4 +20,10 @@ with col1:
   resp = st.checkbox("Contacto")
   if resp:
     st.write("Correcto")
-    
+
+with col2:
+  st.subheader("Esta es la Segunda Columna")
+
+st.subheader("Button")
+if st.button("Presiona el Botón)
+             st.write("Gracias")
