@@ -24,8 +24,9 @@ with col1:
 with col2:
   st.subheader("Esta es la Segunda Columna")
 
-st.subheader("Button")
-if st.button("Presiona el Botón")
+st.subheader("Botones")
+
+if st.button("Presiona el Botón"):
   st.write("Gracias")
 else
   st.write("No has presionado aún")
