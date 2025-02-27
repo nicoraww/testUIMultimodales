@@ -19,5 +19,5 @@ with col1:
   st.write("Diseño de UI Y UX")
   resp = st.checkbox("Contacto")
   if resp:
-    st.writw("Correcto")
+      st.write("Correcto")
     
