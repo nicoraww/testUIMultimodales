@@ -26,4 +26,7 @@ with col2:
 
 st.subheader("Button")
 if st.button("Presiona el Botón")
-             st.write("Gracias")
+  st.write("Gracias")
+else
+  st.write("No has presionado aún)
+
